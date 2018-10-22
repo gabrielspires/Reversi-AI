@@ -15,7 +15,7 @@ public:
     ~Agent();
 
     string MakeMove(vector< vector<int> > board);
-
+    
 };
 
 Agent::Agent(/* args */)
@@ -29,7 +29,7 @@ Agent::~Agent()
 string Agent::MakeMove(vector< vector<int> > board)
 {
     string move = "A0";
-    
+
     return move;
 }
 

@@ -21,14 +21,14 @@ private:
         {0, 0, 0, 0, 0, 0, 0, 0}
     };
 public:
-    Board(/* args */);
+    Board();
     ~Board();
     vector<vector<int>> getBoard();
 
     void PrintBoard();
 };
 
-Board::Board(/* args */)
+Board::Board()
 {
 }
 
